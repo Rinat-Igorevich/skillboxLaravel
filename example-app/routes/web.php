@@ -5,9 +5,6 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\TasksController;
 use Illuminate\Support\Facades\Route;
 
-//Route::get('/', function () {
-//   return view('welcome') ;
-//});
 Route::view('/about', 'layout.about');
 
 //задачи
